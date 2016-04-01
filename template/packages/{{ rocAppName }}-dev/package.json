@@ -1,0 +1,32 @@
+{
+  "name": "{{ rocAppName }}-dev",
+  "description": "{{ rocAppDesc }} (Development)",
+  "author": "{{ rocAppAuthor }}",
+  "license": "{{ rocAppLicense }}",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "roc",
+    "roc-package"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "{{ rocGitRepository }}"
+  },
+  "dependencies": {
+    "roc": "^1.0.0-rc",
+    "roc-package-base-dev": "^1.0.0-alpha"
+  },
+  "devDependencies": {
+    "babel-eslint": "~5.0.0",
+    "eslint": "~1.10.3",
+    "eslint-config-vgno": "~5.0.0"
+  }
+}

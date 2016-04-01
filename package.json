@@ -1,0 +1,15 @@
+{
+  "name": "roc-template-package",
+  "version": "1.0.0",
+  "description": "A template for a basic Roc package",
+  "author": "VG",
+  "license": "MIT",
+  "keywords": [
+    "roc",
+    "roc-template",
+    "package"
+  ],
+  "dependencies": {
+      "roc": "^1.0.0-rc"
+  }
+}
